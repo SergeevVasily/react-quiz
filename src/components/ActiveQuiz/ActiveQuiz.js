@@ -3,11 +3,13 @@ import './ActiveQuiz.scss'
 
 const ActtiveQuiz = props => (
     <div className={'ActiveQuiz'}>
-        <p>
+        <p className={'Question'}>
             <span>
-                <strong>2</strong>
+                <strong>2</strong>&nbsp;
                 How are you?
             </span>
+
+            <small> 4 out of 12 </small>
         </p>
 
 
