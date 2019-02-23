@@ -2,8 +2,11 @@ import  React from 'react'
 import './AnswerItem.scss'
 
 const AnswerItem = props => {
+    console.log(props)
     return (
-    <li className={'AnswerItem'}>
+    <li className={'AnswerItem'}
+        onClick={()=> props.onAnswerClick(props.answer.id)}
+    >
         {props.answer.text}
     </li>
     )

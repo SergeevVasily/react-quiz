@@ -2,16 +2,22 @@ import React from 'react';
 import './AnswersList.scss'
 import  AnswerItem from  './AnswerItem/AnswerItem'
 
-const AnswersList = props => (
+const AnswersList = props => {
+    console.log('List', props)
+    return(
     <ul className={'AnswersList'}>
-        {props.answers.map((answer, index) => {
+        {
+            props.answers.map((answer, index) => {
             return (
                 <AnswerItem
                     key={index}
-                    answer = {answer}/>
+                    answer={answer}
+                    onAnswerClick={props.onAnswerClick}
+                />
             )
         })}
     </ul>
-)
+    )
+}
 
 export  default  AnswersList
