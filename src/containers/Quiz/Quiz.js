@@ -1,15 +1,19 @@
 import React, {Component} from 'react'
 import './Quiz.scss'
+import  ActiveQuiz from '../../components/ActiveQuiz/ActiveQuiz'
 
-class  Quiz  extends  Component
+class  Quiz  extends  Component{
     state = {
-    quiz: []
-    }
+        quiz: []
+    };
 
     render() {
         return(
             <div className={'Quiz'}>
+                <div className={'QuizWrapper'}>
                     <h1>Quiz</h1>
+                    <ActiveQuiz/>
+                </div>
             </div>
         )
     }
