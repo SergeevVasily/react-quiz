@@ -30,6 +30,17 @@ class  Quiz  extends  Component{
                     {text: '1689', id: 3},
                     {text: '1703', id: 4}
                 ]
+            },
+            {
+                question: 'Are you ok?',
+                rightAnswerId: 3,
+                id: 3,
+                answers: [
+                    {text: 'ok', id: 1},
+                    {text: 'i dont know', id: 2},
+                    {text: 'i think so', id: 3},
+                    {text: 'lol', id: 4}
+                ]
             }
         ]
     };
@@ -73,7 +84,7 @@ class  Quiz  extends  Component{
     };
     
     isQuizFinished(){
-            return this.state.activeQuestion + 1  === this.state.quiz.length
+            return this.state.activeQuestion + 1 === this.state.quiz.length
         }
 
 
