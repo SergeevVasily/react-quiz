@@ -13,6 +13,7 @@ const AnswersList = props => {
                     key={index}
                     answer={answer}
                     onAnswerClick={props.onAnswerClick}
+                    state={props.state ? props.state[answer.id] : null}
                 />
             )
         })}
@@ -20,4 +21,4 @@ const AnswersList = props => {
     )
 }
 
-export  default  AnswersList
+export default AnswersList

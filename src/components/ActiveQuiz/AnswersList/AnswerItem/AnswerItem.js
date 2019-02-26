@@ -1,10 +1,15 @@
 import  React from 'react'
-import './AnswerItem.scss'
+import  './AnswerItem.scss'
+
 
 const AnswerItem = props => {
-    console.log(props)
+const cls = ['AnswerItem']
+    if (props.state){
+        cls.push('AnswerItem'[props.state])
+    }
+
     return (
-    <li className={'AnswerItem'}
+    <li className={cls.join('')}
         onClick={()=> props.onAnswerClick(props.answer.id)}
     >
         {props.answer.text}
