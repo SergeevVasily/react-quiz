@@ -24,4 +24,4 @@ const ActiveQuiz = props => {
     )
 }
 
-export  default  ActiveQuiz
+export default ActiveQuiz

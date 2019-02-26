@@ -8,7 +8,7 @@ class  Quiz  extends  Component{
         isFinished: false,
         activeQuestion: 0,
         answerState: null,
-        quiz: [
+        quiz:[
             {
                 question: 'What color is the sky?',
                 rightAnswerId: 2,
@@ -34,42 +34,36 @@ class  Quiz  extends  Component{
         ]
     };
 
-    onAnswerClickHandler = answerId =>{
+    onAnswerClickHandler = answerId => {
         if(this.state.answerState){
-            const key = Object.keys(this.state.answerState)[0]
+            const key = Object.keys(this.state.answerState)[0];
             if (this.state.answerState[key] === 'success'){
                 return
             }
         }
 
 
-        console.log('Answer Id ', answerId)
-
-        const question = this.state.quiz[this.state.activeQuestion]
-
+        const question = this.state.quiz[this.state.activeQuestion];
         if(question.rightAnswerId === answerId){
-
 
             this.setState({
                 answerState: {[answerId]: 'success'}
-            })
+            });
 
-            const timeout = window.setTimeout(()=>{
+            const timeout = window.setTimeout(() => {
                 if(this.isQuizFinished()){
                     this.setState({
                         isFinished: true
                     })
                 }else{
                     this.setState({
-                        activeQuestion: this.state.activeQuestion + 1
+                        activeQuestion: this.state.activeQuestion + 1,
+                        answerState: null
                     })
                 }
 
-
-
                 window.clearTimeout(timeout)
             }, 1000)
-
 
         }else{
             this.setState({
@@ -79,10 +73,9 @@ class  Quiz  extends  Component{
     };
     
     isQuizFinished(){
-        if(this.state.activeQuestion === this.state.quiz.length){
-
+            return this.state.activeQuestion + 1  === this.state.quiz.length
         }
-    }
+
 
     render() {
         return(
@@ -101,9 +94,6 @@ class  Quiz  extends  Component{
                                 state={this.state.answerState}
                             />
                     }
-
-
-
                 </div>
             </div>
         )
