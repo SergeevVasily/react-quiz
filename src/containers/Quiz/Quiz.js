@@ -99,7 +99,7 @@ class  Quiz  extends  Component{
             activeQuestion: 0,
             answerState: null,
             isFinished: false,
-            results: {} 
+            results: {}
         })
         }
 
