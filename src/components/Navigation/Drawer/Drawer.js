@@ -1,13 +1,31 @@
 import React, {Component} from 'react'
-import  './Drawer.scss'
+import './Drawer.scss'
+
+const links = [1, 2, 3];
 
 class Drawer extends Component{
-    render() {
-        return(
-
-        )
+    renderLinks(){
+        return links.map((link, index) => {
+            return(
+            <li key={index}>
+                <a> Link {link}</a>
+            </li>
+            )
+        })
     }
 
+    render() {
+        const cls =['.Drawer'];
+
+        if  (!this.props.isOpen){
+            cls.push('.close')
+        }
+        return(
+            <nav className={cls.join(' ')}>
+                {this.renderLinks()}
+            </nav>
+        )
+    }
 }
 
 export default Drawer
