@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8dc5872-b5ef-462d-845a-9e286e402306" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ActiveQuiz/ActiveQuiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/ActiveQuiz.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ActiveQuiz/AnswersList/AnswerItem/AnswerItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AnswersList/AnswerItem/AnswerItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ActiveQuiz/AnswersList/AnswersList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AnswersList/AnswersList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FinishedQuiz/FinishedQuiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FinishedQuiz/FinishedQuiz.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/MenuToggle/MenuToggle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/MenuToggle/MenuToggle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Quiz/Quiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Quiz/Quiz.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/.bin/src/components/FinishedQuiz/FinishedQuiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
+            <state relative-caret-position="-46">
               <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -41,20 +31,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/.bin/src/components/Navigation/MenuToggle/MenuToggle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="552">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -62,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/.bin/src/components/Navigation/Drawer/Drawer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-93">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="390">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -74,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="413">
+              <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -124,10 +111,10 @@
         <option value="$PROJECT_DIR$/src/components/Navigation/MenuToggle/MenuToggle.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/MenuToggle/MenuToggle.scss" />
         <option value="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.scss" />
-        <option value="$PROJECT_DIR$/src/hoc/Layout/Layout.js" />
         <option value="$PROJECT_DIR$/node_modules/.bin/src/components/Navigation/Drawer/Drawer.js" />
-        <option value="$PROJECT_DIR$/node_modules/.bin/src/components/Navigation/Drawer/Drawer.scss" />
+        <option value="$PROJECT_DIR$/src/hoc/Layout/Layout.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.js" />
+        <option value="$PROJECT_DIR$/node_modules/.bin/src/components/Navigation/Drawer/Drawer.scss" />
       </list>
     </option>
   </component>
@@ -249,18 +236,18 @@
       <workItem from="1550818219453" duration="12655000" />
       <workItem from="1550887590324" duration="99000" />
       <workItem from="1550887713567" duration="76861000" />
-      <workItem from="1551550635987" duration="571000" />
+      <workItem from="1551550635987" duration="4582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92764000" />
+    <option name="totallyTimeSpent" value="96775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="864" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861112" visible="true" weight="0.20536913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861112" visible="true" weight="0.20536913" />
       <window_info id="Structure" order="1" sideWeight="0.5013889" side_tool="true" weight="0.18456376" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -276,9 +263,29 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.25100672" />
+      <window_info anchor="right" id="Terminal" order="3" weight="0.21006711" />
       <window_info anchor="right" id="Run" order="4" weight="0.22885907" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861112" visible="true" weight="0.20536913" />
+      <window_info id="Structure" order="1" sideWeight="0.5013889" side_tool="true" weight="0.18456376" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.21006711" />
+      <window_info anchor="right" id="Run" order="4" weight="0.22885907" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -473,16 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/.bin/src/components/FinishedQuiz/FinishedQuiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.bin/src/hoc/Layout/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -496,30 +493,27 @@
     <entry file="file://$PROJECT_DIR$/node_modules/.bin/src/components/Navigation/Drawer/Drawer.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.bin/src/components/FinishedQuiz/FinishedQuiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.bin/src/components/Navigation/MenuToggle/MenuToggle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hoc/Layout/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="413">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -528,8 +522,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.bin/src/components/Navigation/Drawer/Drawer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="390">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

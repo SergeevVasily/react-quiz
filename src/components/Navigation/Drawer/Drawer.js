@@ -15,13 +15,14 @@ class Drawer extends Component{
     }
 
     render() {
-        const cls =['.Drawer'];
+        const cls  = ['Drawers'];
 
-        if  (!this.props.isOpen){
-            cls.push('.close')
+        if(!this.props.isOpen){
+            cls.push('Drawer.close')
         }
+
         return(
-            <nav className={cls.join(' ')}>
+            <nav className={'Drawers'}>
                 {this.renderLinks()}
             </nav>
         )

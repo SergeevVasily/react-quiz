@@ -12,7 +12,7 @@ class Layout extends Component{
         this.setState({
             menu: !this.state.menu
         })
-    }
+    };
 
 
 
@@ -21,7 +21,6 @@ class Layout extends Component{
             <div className={'Layout'}>
 
                 <Drawer />
-
                 <MenuToggle
                     onToggle={this.toggleMenuHandler}
                     isOpen={this.state.menu}
