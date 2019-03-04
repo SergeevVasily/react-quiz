@@ -43,7 +43,7 @@ class  Quiz  extends  Component{
                     {text: 'lol', id: 4}
                 ]
             }
-        ]
+                 ]
     };
 
     onAnswerClickHandler = answerId => {
@@ -56,7 +56,7 @@ class  Quiz  extends  Component{
 
 
         const question = this.state.quiz[this.state.activeQuestion];
-        const results = this.state.results
+        const results = this.state.results;
         if(question.rightAnswerId === answerId){                                    //right answer
             if(!results[question.id]){
                 results[question.id] = 'success'
@@ -101,7 +101,7 @@ class  Quiz  extends  Component{
             isFinished: false,
             results: {}
         })
-        }
+        };
 
     render() {
         return(
@@ -114,13 +114,12 @@ class  Quiz  extends  Component{
                             results={this.state.results}
                             quiz = {this.state.quiz}
                             onRetry = {this.retryHandler}
-
                             />
                             : <ActiveQuiz
                                 answers={this.state.quiz[this.state.activeQuestion].answers}
                                 question={this.state.quiz[this.state.activeQuestion].question}
                                 onAnswerClick={this.onAnswerClickHandler}
-                                quizLength ={this.state.quiz.length}
+                                quizLength={this.state.quiz.length}
                                 answerNumber={this.state.activeQuestion + 1}
                                 state={this.state.answerState}
 

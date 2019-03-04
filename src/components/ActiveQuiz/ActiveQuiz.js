@@ -22,6 +22,6 @@ const ActiveQuiz = props => {
         />
     </div>
     )
-}
+};
 
 export default ActiveQuiz

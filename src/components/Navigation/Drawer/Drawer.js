@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './Drawer.scss'
+import  classes from './Drawer.scss'
 
 const links = [1, 2, 3];
 
@@ -14,15 +14,15 @@ class Drawer extends Component{
         })
     }
 
-    render() {
-        const cls  = ['Drawers'];
 
+    render() {
+        const cls  = [];
         if(!this.props.isOpen){
-            cls.push('Drawer.close')
+            cls.push(classes.Drawer)
         }
 
         return(
-            <nav className={'Drawers'}>
+            <nav className={cls.join(' ')}>
                 {this.renderLinks()}
             </nav>
         )
