@@ -7,6 +7,7 @@ class Layout extends Component{
     state = {
         menu: false
     };
+
     toggleMenuHandler = () => {
         this.setState({
             menu: !this.state.menu

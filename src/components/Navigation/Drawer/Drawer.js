@@ -4,11 +4,11 @@ import  classes from './Drawer.scss'
 const links = [1, 2, 3];
 
 class Drawer extends Component{
-    renderLinks(){
+    static renderLinks(){
         return links.map((link, index) => {
             return(
             <li key={index}>
-                <a> Link {link}</a>
+                <a href={'#'}> Link {link}</a>
             </li>
             )
         })
@@ -16,14 +16,14 @@ class Drawer extends Component{
 
 
     render() {
-        const cls  = [];
+        const cls = [];
         if(!this.props.isOpen){
             cls.push(classes.Drawer)
         }
 
         return(
             <nav className={cls.join(' ')}>
-                {this.renderLinks()}
+                {Drawer.renderLinks()}
             </nav>
         )
     }
